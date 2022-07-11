@@ -3,3 +3,17 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
+Console.WriteLine("Введите пожалуйста число!");
+
+Console.Write("Ваше число = ");
+int a = Convert.ToInt32(Console.ReadLine());
+int i = 1;
+
+for(i = 1; i <= a; i++){
+  if (i % 2 == 0)
+  {
+    Console.WriteLine($" Ваше число {i} - четное");
+  }
+    
+}
+
