@@ -12,7 +12,7 @@ int i = 1;
 for(i = 1; i <= a; i++){
   if (i % 2 == 0)
   {
-    Console.WriteLine($" Ваше число {i} - четное");
+    Console.Write($"{i} - четное; ");
   }
     
 }
